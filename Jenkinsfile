@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'from jenkins;;;;Building..'
             }
         }
         stage('Test') {
